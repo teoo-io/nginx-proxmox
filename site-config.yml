@@ -8,7 +8,7 @@ spec:
   ports:
     - protocol: TCP
       name: APP_NAME-svc
-      port: 8006
+      port: 443
   selector:
     app: APP_NAME
 ---
@@ -34,4 +34,4 @@ spec:
           image: DOCKERHUB_USERNAME/APP_NAME:GIT_HASH
           ports:
             - name: APP_NAME-svc
-              containerPort: 8006
+              containerPort: 443
