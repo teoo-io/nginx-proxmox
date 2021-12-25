@@ -1,3 +1,3 @@
 FROM nginx
 EXPOSE 80
-COPY . /etc/nginx/nginx.conf
+COPY ./nginx.conf /etc/nginx
