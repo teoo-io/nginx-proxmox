@@ -1,3 +1,3 @@
 FROM nginx
-EXPOSE 443
+EXPOSE 8006
 COPY ./nginx.conf /etc/nginx/nginx.conf
